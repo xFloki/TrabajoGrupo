@@ -14,8 +14,16 @@ public class Tronco extends GraphicsProgram{
 	private static final int ANCHO_CUERPO = 120;
 
 	public void run(){
-		
 		setSize(ANCHO_PANTALLA, ALTO_PANTALLA);
+		
+		tronco();
+	}
+		
+		
+		public void tronco(){
+			
+		
+		
 
 
 		GRect brazoIzquierdo = new GRect(ANCHO_BRAZOIZQ,ALTO_BRAZOIZQ);
@@ -26,6 +34,6 @@ public class Tronco extends GraphicsProgram{
 		
 		GRect brazoDerecho = new GRect(ANCHO_BRAZODRCHO,ALTO_BRAZODRCHO);
 		add(brazoDerecho,ANCHO_PANTALLA / 2 + 100, ALTO_PANTALLA /2);
-
+		}
 	}
-}
+
