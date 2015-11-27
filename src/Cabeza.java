@@ -9,7 +9,6 @@ public class Cabeza extends GraphicsProgram{
 		GOval ojo1 = new GOval(ancho/4, ancho/4);
 		GOval ojo2 = new GOval(ancho/4, ancho/4);
 		
-		
 		add(cabeza,posX,posY);
 		add(boca,posX + (ancho/4),posY + ((alto/4) * 3));
 		add(ojo1,posX + (ancho/4),posY + (alto/4));

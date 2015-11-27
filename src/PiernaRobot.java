@@ -1,7 +1,7 @@
 import acm.program.*;
 import acm.graphics.*;
 
-public class PiernaRobot extends GraphicsProgram  {
+public class PiernaRobot extends Tronco  {
 	
 	private static int ANCHO_PIERNA = 50 ;
 	private static int LARGO_PIERNA = 150 ;
