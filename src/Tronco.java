@@ -1,8 +1,7 @@
-
 import acm.graphics.*;
 import acm.program.GraphicsProgram;
 
-public class Tronco extends GraphicsProgram{
+public class Tronco extends GCompound{
 	
 	private static final int ANCHO_PANTALLA = 800;
 	private static final int ALTO_PANTALLA = 600;
@@ -13,15 +12,8 @@ public class Tronco extends GraphicsProgram{
 	private static final int ALTO_CUERPO = 100;
 	private static final int ANCHO_CUERPO = 120;
 
-	public void run(){
-		setSize(ANCHO_PANTALLA, ALTO_PANTALLA);
+		public Tronco(){
 		
-		tronco();
-	}
-		
-		
-		public void tronco(){
-			
 		
 		
 
@@ -36,4 +28,3 @@ public class Tronco extends GraphicsProgram{
 		add(brazoDerecho,ANCHO_PANTALLA / 2 + 100, ALTO_PANTALLA /2);
 		}
 	}
-
