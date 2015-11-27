@@ -2,7 +2,7 @@
 import acm.graphics.*;
 import acm.program.GraphicsProgram;
 
-public class Tronco extends GraphicsProgram{
+public class Tronco extends Cabeza{
 	
 	private static final int ANCHO_PANTALLA = 800;
 	private static final int ALTO_PANTALLA = 600;
@@ -14,8 +14,15 @@ public class Tronco extends GraphicsProgram{
 	private static final int ANCHO_CUERPO = 120;
 
 	public void run(){
-		
+		tronco();
 		setSize(ANCHO_PANTALLA, ALTO_PANTALLA);
+	}
+		
+		
+		public void tronco(){
+		
+		
+		
 
 
 		GRect brazoIzquierdo = new GRect(ANCHO_BRAZOIZQ,ALTO_BRAZOIZQ);
