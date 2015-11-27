@@ -1,7 +1,7 @@
 import acm.program.*;
 import acm.graphics.*;
 
-public class PiernaRobot extends Tronco  {
+public class PiernaRobot extends GCompound  {
 	
 	private static int ANCHO_PIERNA = 50 ;
 	private static int LARGO_PIERNA = 150 ;
@@ -32,7 +32,7 @@ public class PiernaRobot extends Tronco  {
 		add(pieDerecho,75,150);
 	}
 	
-	public void legs(){
+	public PiernaRobot(){
 		piernas();
 		pies();
 	}

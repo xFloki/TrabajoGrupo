@@ -1,8 +1,8 @@
 import acm.program.*;
 import acm.graphics.*;
 
-public class Cabeza extends GraphicsProgram{
-	public void Cabeza(int ancho, int alto, double posX, double posY){
+public class Cabeza extends GCompound{
+	public Cabeza(int ancho, int alto, double posX, double posY){
 		GRect cabeza = new GRect(ancho,alto);
 		GRect boca = new GRect(ancho/2, alto/4);
 		GRect cuello = new GRect(ancho/2, alto/8);
